@@ -15,6 +15,13 @@ body {
     border-right: 4px solid #CCC;
 }
 
+#forkmeribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+}
+
 a {
     text-decoration: none;
     background-color: #EEE;
