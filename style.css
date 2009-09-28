@@ -4,16 +4,17 @@ html {
     background-color: #FEF;
 }
 body {
-    width: 700px;
+    width: 600px;
     background-color: #FFF;
     margin: 0px auto;
-    padding: 3px 10px 20px 10px;
+    padding: 3px 15px 20px 15px;
     font-family: Helvetica, Arial, sans-serif;
     text-align: justify;
     color:#000;
-    border-left: 2px solid #999;
-    border-right: 2px solid #999;
+    border-left: 4px solid #CCC;
+    border-right: 4px solid #CCC;
 }
+
 a {
     text-decoration: none;
     background-color: #EEE;
@@ -25,47 +26,47 @@ a:hover {
     background-color: #FFF;
 }
 
+ul {
+    list-style-type:circle;
+}
+
 h1 {
     font-size: 3em;
-    margin: 15px;
+    text-align: center;
+    margin:2px;
+}
+
+p.dialog {
+    border:1px solid #CCC;
+    padding: 5px 15px;
+}
+
+p.dialog:before {
+    float:left;
+    margin:10px;
+    padding-right:14px;
 }
 
 p.info {
-    border:1px solid #CCC;
     background-color: #EEF;
-    padding: 5px 15px;
 }
 
 p.info:before{
     content:url('info.png');
-    float:left;
-    margin:10px;
-    padding-right:14px;
 }
 
 p.warning {
-    border:1px solid #CCC;
     background-color: #FFE;
-    padding: 5px 15px;
-    
 }
 
 p.warning:before {
     content:url('warning.png');
-    float:left;
-    margin:10px;
-    padding-right:14px;
 }
 
 p.alert {
-    border: 1px solid #CCC;
     background-color: #FEE;
-    padding: 5px 15px;
 }
 
 p.alert:before {
     content:url('alert.png');
-    float:left;
-    margin:10px;
-    padding-right:14px;
 }
