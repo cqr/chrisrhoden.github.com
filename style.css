@@ -2,6 +2,7 @@ html {
     margin: 0px;
     padding: 0px;
     background-color: #FEF;
+    background-image:url('pattern.png');
 }
 body {
     width: 600px;
