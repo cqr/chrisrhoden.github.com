@@ -35,17 +35,15 @@ a:hover {
 
 ul {
     list-style-type:circle;
+    margin-bottom:30px;
 }
 
 li {
     line-height:1.6em;
-    font-size: .8em;
-    color:#F00;
 }
 
 li a {
     font-weight:700;
-    font-size:1.4em;
     background:none;
 }
 
@@ -54,10 +52,14 @@ li a:hover {
 }
 
 li span.description{
-    font: italic normal 1.2em Helvetica, Arial, sans-serif;
     color: #000;
     line-height:1em;
     margin-left: 12px;
+}
+
+hr {
+    border: none;
+    border-bottom:1px solid #ccc;
 }
 
 h1 {
