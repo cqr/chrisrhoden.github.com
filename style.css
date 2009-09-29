@@ -23,16 +23,6 @@ body {
     border: 0;
 }
 
-a {
-    text-decoration: none;
-    background-color: #EEE;
-    padding:3px;
-    color: #000;
-}
-
-a:hover {
-    background-color: none;
-}
 
 ul {
     list-style-type:circle;
@@ -43,12 +33,11 @@ li {
     line-height:1.6em;
 }
 
-li a {
+a {
     font-weight:700;
-    background:none;
 }
 
-li a:hover {
+a:hover {
     text-decoration:underline;
 }
 
