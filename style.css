@@ -38,16 +38,19 @@ ul {
 }
 
 li {
-    line-height:1.1em;
-    
+    line-height:1.8em;
+    font-size: .6em;
+    color:#F00;
 }
 
 li a {
     font-weight:700;
+    font-size:2em;
+    background:none;
 }
 
 li span.description{
-    font: italic small-caps normal .7em Helvetica, Arial, sans-serif;
+    font: italic small-caps normal 1.4em Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -58,11 +61,14 @@ h1 {
 
 p {
     padding:10px;
+    line-height:1.4em;
 }
 
 p.dialog {
     border:1px solid #CCC;
     padding: 5px 15px;
+    margin: 30px 0px;
+    line-height:1em;
 }
 
 p.dialog:before {
