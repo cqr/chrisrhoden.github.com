@@ -37,6 +37,19 @@ ul {
     list-style-type:circle;
 }
 
+li {
+    line-height:1.1em;
+    
+}
+
+li a {
+    font-weight:700;
+}
+
+li span.description{
+    font: italic small-caps normal .7em Helvetica, Arial, sans-serif;
+}
+
 h1 {
     font-size: 3em;
     text-align: center;
