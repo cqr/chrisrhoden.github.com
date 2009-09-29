@@ -38,19 +38,26 @@ ul {
 }
 
 li {
-    line-height:1.8em;
-    font-size: .6em;
+    line-height:1.6em;
+    font-size: .8em;
     color:#F00;
 }
 
 li a {
     font-weight:700;
-    font-size:2em;
+    font-size:1.4em;
     background:none;
 }
 
+li a:hover {
+    text-decoration:underline;
+}
+
 li span.description{
-    font: italic small-caps normal 1.4em Helvetica, Arial, sans-serif;
+    font: italic normal 1.2em Helvetica, Arial, sans-serif;
+    color: #000;
+    line-height:1em;
+    margin-left: 12px;
 }
 
 h1 {
